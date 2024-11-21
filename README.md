@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Showcase 3D with Three.js 🚗🎮
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description 📝
 
-## Available Scripts
+This project is an interactive 3D showcase built with **Three.js**, a JavaScript library for creating and displaying 3D graphics in the browser. The primary goal of this project is to practice working with Three.js and demonstrate how to integrate 3D elements into a showcase website.
 
-In the project directory, you can run:
+The project features an interactive 3D model of a car (BMW) that users can explore, zoom in/out, and manipulate within a virtual environment using mouse controls and scroll wheel. Integrating 3D elements into a showcase website can provide an immersive and engaging user experience, allowing users to visualize products dynamically and interactively.
 
-### `npm start`
+## Features ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interactive 3D Model**: Users can rotate, zoom, and explore the car model using mouse interactions.
+- **Interactive Menu**: A presentation menu can be opened and closed to show additional information about the car.
+- **Zoom Controls**: Users can zoom in and out on the model using the scroll wheel or zoom buttons.
+- **Presentation Details**: A button allows users to close the presentation menu and discover more details about the car model.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Goals 🎯
 
-### `npm test`
+- Practice integrating 3D models into web applications.
+- Create an interactive and immersive experience for a showcase website.
+- Explore the possibilities of Three.js for displaying and interacting with 3D objects.
+- Use **React** and **Three.js** for a modern and dynamic approach to web development.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites 🛠️
 
-### `npm run build`
+Before getting started, ensure you have the following tools installed on your machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js**: [Download Node.js](https://nodejs.org/)
+- **npm** (Node.js package manager): This comes with Node.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation ⚡
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository to your local machine:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/your-username/showcase-car-3d.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd showcase-car-3d/client
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to the following URL to view the project:
+   ```bash
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage 👨‍💻
+Once the server is running and the webpage is open, you can:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Explore the 3D Model:** Use your mouse to interact with the car model. You can rotate it to view it from different angles.
+- **Zoom In and Out:** Use the scroll wheel to zoom in and out on the model. You can also use the zoom buttons on the screen to adjust the model's size.
+- **Presentation Menu:** The presentation menu contains additional information about the car. You can open or close it by clicking the menu button. A hamburger icon appears to re-open the menu once it's closed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used 🔧
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Three.js:** JavaScript library for creating and displaying 3D graphics in the browser.
+- **React:** JavaScript library for building user interfaces.
+- **React Three Fiber:** A React wrapper for Three.js that enables declarative 3D rendering with React.
+- **@react-three/drei:** A collection of useful helpers and components for working with Three.js and React Three Fiber.
+- **Lucide React:** A lightweight React icon library used for the menu icon.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors 👨‍💻
+**Lucas NEGRE:** Currently training to become a full-stack developer at [Holberton School](https://www.holbertonschool.com/).
