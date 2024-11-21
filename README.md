@@ -1,5 +1,5 @@
 # Showcase 3D with Three.js 🚗🎮
-
+![Project Screenshot](./public/screenshot-app.png)
 ## Description 📝
 
 This project is an interactive 3D showcase built with **Three.js**, a JavaScript library for creating and displaying 3D graphics in the browser. The primary goal of this project is to practice working with Three.js and demonstrate how to integrate 3D elements into a showcase website.
